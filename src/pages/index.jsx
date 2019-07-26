@@ -74,31 +74,30 @@ const Index = () => (
         <Title>Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="MOSANO"
+            link="https://www.mosano.eu"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective
-            contest.
+            This project is my goal dream. With the help of two talented developers I have co-founded MOSANO, a web & mobile development company. In MOSANO I work as Business Developer, helping other companies achive their goals trough tecnologie enablers.
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="Perfumes365"
+            link="https://www.perfumes365.pt"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
             I entered the DOCMA 2017 award with this Harry Potter inspired
             image.
           </ProjectCard>
           <ProjectCard
-            title="Tomb Raider"
-            link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+            title="RealtimeAds"
+            link="https://www.realtimeads.net"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
           >
             Recreation of a Tomb Raider Wallpaper (Fan Art)
           </ProjectCard>
           <ProjectCard
-            title="Eagle"
-            link="https://www.behance.net/gallery/38068151/Eagle"
+            title="Takeat"
+            link="#"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             A fantasy image manipulation relocating the habitat of wild animals.
