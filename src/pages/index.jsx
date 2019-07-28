@@ -63,65 +63,77 @@ const Index = () => (
     <Parallax pages={5}>
       <Hero offset={0}>
         <BigTitle>
-          Hello, <br /> I'm Nelson Novais.
+          Hello, <br /> I'm Nelson.
         </BigTitle>
-        <Subtitle>
-          I'm creating noice web experiences for the next generation of
-          consumer-facing companies.
-        </Subtitle>
+        <Subtitle>A portuguese Electrical Engineer living in Porto.</Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>My Projects</Title>
         <ProjectsWrapper>
           <ProjectCard
             title="MOSANO"
             link="https://www.mosano.eu"
-            bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            bg="linear-gradient(to right, #1E22AA 0%, #E31C79 100%)"
           >
-            This project is my goal dream. With the help of two talented developers I have co-founded MOSANO, a web & mobile development company. In MOSANO I work as Business Developer, helping other companies achive their goals trough tecnologie enablers.
+            This project is my goal dream. With the help of two talented
+            developers I have co-founded MOSANO, a web & mobile development
+            company. In MOSANO I work as Business Developer, helping other
+            companies achive their goals trough technology enablers.
           </ProjectCard>
           <ProjectCard
-            title="Perfumes365"
-            link="https://www.perfumes365.pt"
-            bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            title="TakeEat"
+            link="https://app.take-eat.pt/"
+            bg="linear-gradient(to right, #fee1b2 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired
-            image.
+            This my recent project, that came to life due too our everyday
+            problem to order food from neighbourhood takeaways. I will place
+            more info about this project, stay tuned.
           </ProjectCard>
           <ProjectCard
             title="RealtimeAds"
             link="https://www.realtimeads.net"
-            bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+            bg="linear-gradient(to right, #00C6D2 0%, #1E22AA 100%)"
           >
-            Recreation of a Tomb Raider Wallpaper (Fan Art)
+            RealTimeAds was platform that we envisioned that it could turn out
+            to be the next trend in Programmatic Digital out of Home. However
+            due to technologies restrictions and lack of time, we had to put
+            this project on hold for while.
           </ProjectCard>
           <ProjectCard
-            title="Takeat"
-            link="#"
+            title="Perfumes365"
+            link="https://perfumes365.pt"
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
-            A fantasy image manipulation relocating the habitat of wild animals.
+            Working as technological advisor for Perfumes365, where I also help
+            maitain the e-commerce platform.
           </ProjectCard>
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
-        <Title>About</Title>
+        <Title>About me</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Nelson Novais" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity
-            of my thoughts. So I'm incorporating Emoji into my speech to better
-            express myself. Winky face.
+            Hardworking. Professional. Ambitious. Benfica Fan.
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding
-          hands? That's how you're gonna feel every day. My mother cried the day
-          I was born because she knew she’d never be prettier than me. You
-          should make me your campaign manager. I was born for politics. I have
-          great hair and I love lying. Captain? The kids want to know where
-          Paulie the Pigeon is. I told them he got sucked up into an airplane
-          engine, is that all right?
+          Born and raised in a portuguese small town, Fafe, my love for
+          technology started when I first saw Terminator 2 at ate age of 8.
+          Since then I have always been fascinated about robots and technology
+          and general. From young age I decided that I wanted to be an enginner,
+          and at age of 19 I moved to Porto, to study Electrical & Computer
+          Engineering at Instituto Superior de Engenharia do Porto. After my
+          graduation I started working as Field support Engineer in a Portuguese
+          Startup, where I have learned a lot about dealing with customers and
+          technical challenges. Then I realize that my goals were to have my own
+          company and with the help of talented & good friends I founded MOSANO,
+          a web and mobile application development company. With 5+ in the Tech
+          field (aka nerd), I work now as business developer and bit as
+          executive officer, however I don't like to be seen as chief of
+          (something), I prefer to be seen as someone which can help you to get
+          a reliable and honest answer for your everyday technical/business
+          challenges.
         </AboutDesc>
       </About>
       <Contact offset={4}>
@@ -130,15 +142,13 @@ const Index = () => (
           <ContactText>
             Say <a href="mailto:nnovais@mosano.eu">Hi</a> or find me on other
             platforms:{" "}
-            <a href="https://www.linkedin.com/in/nelson-novais/">
-              LinkedIn
-            </a>{" "}
-            & <a href="https://www.instagram.com/nelsonnovais/">Instagram</a>
+            <a href="https://www.linkedin.com/in/nelson-novais/">LinkedIn</a> &{" "}
+            <a href="https://angel.co/nelson-novais">AngelCo</a>
           </ContactText>
         </Inner>
         <Footer>
           &copy; 2019 by Nelson Novais.{" "}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">
+          <a href="https://github.com/nelsonnovais/nelsonnovais.com">
             GitHub Repository
           </a>
           . Powered by <a href="https://www.mosano.eu">MOSANO</a>.
